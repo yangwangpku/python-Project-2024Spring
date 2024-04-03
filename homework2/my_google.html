@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .search-container {
+            background-color: white;
+            padding: 40px; /* Increased padding */
+            border-radius: 20px; /* Larger border-radius */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 50%; /* Set a percentage width */
+            max-width: 600px; /* Maximum width to prevent it from becoming too wide */
+        }
+
+        .logo {
+            margin-bottom: 30px; /* Increased margin */
+        }
+
+        input[type="text"] {
+            padding: 15px; /* Increased padding */
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px; /* Larger border-radius */
+            width: calc(100% - 120px); /* Adjust width based on the container's width */
+            max-width: 400px; /* Maximum width for the input field */
+        }
+
+        input[type="submit"] {
+            padding: 15px 30px; /* Increased padding */
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 10px; /* Larger border-radius */
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <div class="logo">
+            <img src="data/googlelogo_china.png" alt="Search Engine Logo" height="50">
+        </div>
+        <form action="https://m.sowai.cn/search" method="get">
+            <input type="text" name="q">
+            <input type="submit" value="搜索">
+        </form>
+    </div>
+</body>
+</html>
