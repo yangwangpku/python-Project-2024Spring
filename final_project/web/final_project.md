@@ -5,7 +5,6 @@
     <title>大作业</title>
 </head>
 <body>
-    <h1>大作业</h1>
     <h2>编程语言使用情况直方图</h2>
     <p><a href="languages_by_topic.html">点此查看直方图</a></p>
     <p>我们统计了不同主题下各个编程语言的使用情况，并将其做成了直方图。（由于
